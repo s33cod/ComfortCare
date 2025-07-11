@@ -17,11 +17,12 @@ export default function Layout({ children, title, description }: LayoutProps) {
   const location = useLocation();
 
   const navigation = [
-    { name: "Home", href: "/" },
-    { name: "About", href: "/about" },
+    { name: "Home", href: "/", icon: HomeIcon },
+    { name: "About", href: "/about", icon: Info },
     {
       name: "Services",
       href: "/services",
+      icon: Briefcase,
       children: [
         { name: "Meal Preparation", href: "/services/meal-preparation" },
         { name: "Home Management", href: "/services/home-management" },
@@ -33,9 +34,9 @@ export default function Layout({ children, title, description }: LayoutProps) {
         { name: "Dog Walking/Pet Care", href: "/services/pet-care" },
       ],
     },
-    { name: "Pricing", href: "/pricing" },
-    { name: "News", href: "/news" },
-    { name: "Contact", href: "/contact" },
+    { name: "Pricing", href: "/pricing", icon: DollarSign },
+    { name: "News", href: "/news", icon: Newspaper },
+    { name: "Contact", href: "/contact", icon: MessageCircle },
   ];
 
   return (
