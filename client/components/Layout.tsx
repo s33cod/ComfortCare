@@ -68,15 +68,22 @@ export default function Layout({ children, title, description }: LayoutProps) {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             {/* Logo */}
-            <Link to="/" className="flex items-center space-x-2">
-              <div className="bg-care-500 p-2 rounded-lg">
-                <Heart className="h-6 w-6 text-white" />
-              </div>
-              <div>
-                <div className="text-xl font-bold text-care-700">
-                  Comforting Care
-                </div>
-                <div className="text-xs text-muted-foreground">Solutions</div>
+            <Link
+              to="/"
+              className="flex items-center space-x-2"
+              style={{
+                backgroundImage:
+                  "url(https://cdn.builder.io/api/v1/image/assets%2Fc958b415ffc540ad9c90ee1b661265c5%2Fbe0781d3cc6e400b87fe0e5566e770d6)",
+                backgroundRepeat: "no-repeat",
+                backgroundPosition: "center",
+                backgroundSize: "cover",
+              }}
+            >
+              <div
+                style={{ padding: "20px" }}
+                className="text-xl font-bold text-care-700"
+              >
+                Comforting Care
               </div>
             </Link>
 
