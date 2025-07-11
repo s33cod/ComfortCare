@@ -141,13 +141,14 @@ export default function Layout({ children, title, description }: LayoutProps) {
                   <Link
                     to={item.href}
                     className={cn(
-                      "block px-3 py-2 text-base font-medium text-foreground hover:text-care-600 hover:bg-care-50",
+                      "flex items-center space-x-2 px-3 py-2 text-base font-medium text-foreground hover:text-care-600 hover:bg-care-50",
                       location.pathname === item.href &&
                         "text-care-600 bg-care-50",
                     )}
                     onClick={() => setIsMenuOpen(false)}
                   >
-                    {item.name}
+                    {item.icon && <item.icon className="h-4 w-4" />}
+                    <span>{item.name}</span>
                   </Link>
                   {item.children && (
                     <div className="pl-6 space-y-1">
