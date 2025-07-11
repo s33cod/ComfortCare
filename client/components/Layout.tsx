@@ -10,7 +10,7 @@ import {
   Home as HomeIcon,
   Info,
   Briefcase,
-  DollarSign,
+  PoundSterling,
   Newspaper,
   MessageCircle,
 } from "lucide-react";
@@ -46,7 +46,7 @@ export default function Layout({ children, title, description }: LayoutProps) {
         { name: "Dog Walking/Pet Care", href: "/services/pet-care" },
       ],
     },
-    { name: "Pricing", href: "/pricing", icon: DollarSign },
+    { name: "Pricing", href: "/pricing", icon: PoundSterling },
     { name: "News", href: "/news", icon: Newspaper },
     { name: "Contact", href: "/contact", icon: MessageCircle },
   ];
