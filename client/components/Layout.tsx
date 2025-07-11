@@ -185,14 +185,12 @@ export default function Layout({ children, title, description }: LayoutProps) {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div>
-              <div className="flex items-center space-x-2 mb-4">
-                <div className="bg-care-500 p-2 rounded-lg">
-                  <Heart className="h-6 w-6 text-white" />
-                </div>
-                <div>
-                  <div className="text-xl font-bold">Comforting Care</div>
-                  <div className="text-xs text-care-200">Solutions</div>
-                </div>
+              <div className="mb-4">
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets%2Fc958b415ffc540ad9c90ee1b661265c5%2F2f33b0288ac24d85a6ad6b5d880373ad?format=webp&width=800"
+                  alt="Comforting Care Solutions Logo"
+                  className="h-16 w-auto object-contain"
+                />
               </div>
               <p className="text-care-200 text-sm">
                 Providing compassionate, professional care services to help you
