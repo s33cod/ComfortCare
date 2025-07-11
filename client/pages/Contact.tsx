@@ -40,7 +40,7 @@ export default function Contact() {
                 </div>
                 <h3 className="font-semibold mb-2">Email</h3>
                 <p className="text-muted-foreground">
-                  info@comfortingcare.co.uk
+                  info@comfortingcaresolutions.co.uk
                 </p>
               </CardContent>
             </Card>

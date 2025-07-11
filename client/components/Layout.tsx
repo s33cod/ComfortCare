@@ -67,7 +67,7 @@ export default function Layout({ children, title, description }: LayoutProps) {
             </div>
             <div className="flex items-center space-x-2">
               <Mail className="h-4 w-4" />
-              <span>info@comfortingcare.co.uk</span>
+              <span>info@comfortingcaresolutions.co.uk</span>
             </div>
           </div>
           <div className="hidden md:block">
@@ -286,7 +286,7 @@ export default function Layout({ children, title, description }: LayoutProps) {
                 </div>
                 <div className="flex items-center space-x-2">
                   <Mail className="h-4 w-4" />
-                  <span>info@comfortingcare.co.uk</span>
+                  <span>info@comfortingcaresolutions.co.uk</span>
                 </div>
                 <p className="mt-4">
                   63-66 Hatton Garden

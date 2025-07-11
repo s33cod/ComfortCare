@@ -288,7 +288,9 @@ export default function Services() {
               variant="outline"
               className="border-white text-white hover:bg-white hover:text-care-600"
             >
-              <Link to="/pricing">View Pricing</Link>
+              <Link to="/pricing" className="text-black">
+                View Pricing
+              </Link>
             </Button>
           </div>
         </div>

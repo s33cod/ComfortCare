@@ -148,7 +148,9 @@ export default function MedicalAssistance() {
                   <Link to="/contact">Get Medical Support</Link>
                 </Button>
                 <Button asChild variant="outline" size="lg">
-                  <Link to="/pricing">View Pricing</Link>
+                  <Link to="/pricing" className="text-black">
+                    View Pricing
+                  </Link>
                 </Button>
               </div>
             </div>

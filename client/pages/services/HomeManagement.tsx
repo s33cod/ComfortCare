@@ -114,7 +114,9 @@ export default function HomeManagement() {
                   <Link to="/contact">Get Started Today</Link>
                 </Button>
                 <Button asChild variant="outline" size="lg">
-                  <Link to="/pricing">View Pricing</Link>
+                  <Link to="/pricing" className="text-black">
+                    View Pricing
+                  </Link>
                 </Button>
               </div>
             </div>
@@ -328,7 +330,9 @@ export default function HomeManagement() {
               variant="outline"
               className="border-white text-white hover:bg-white hover:text-care-600"
             >
-              <Link to="/pricing">View Pricing Plans</Link>
+              <Link to="/pricing" className="text-black">
+                View Pricing Plans
+              </Link>
             </Button>
           </div>
         </div>

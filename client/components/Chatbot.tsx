@@ -67,7 +67,7 @@ const botResponses: Record<string, { text: string; quickReplies?: string[] }> =
       ],
     },
     "contact information": {
-      text: "Here's how to reach us:\n\n📞 Phone: +44 1322 329735\n📧 Email: info@comfortingcare.co.uk\n📍 Address: 63-66 Hatton Garden, London EC1N 8LE\n\n🕒 Available 24/7 for emergency care\n\nHow would you prefer to get in touch?",
+      text: "Here's how to reach us:\n\n📞 Phone: +44 1322 329735\n📧 Email: info@comfortingcaresolutions.co.uk\n📍 Address: 63-66 Hatton Garden, London EC1N 8LE\n\n🕒 Available 24/7 for emergency care\n\nHow would you prefer to get in touch?",
       quickReplies: ["Call now", "Send email", "Schedule visit", "Learn more"],
     },
     "companionship services": {
@@ -89,7 +89,7 @@ const botResponses: Record<string, { text: string; quickReplies?: string[] }> =
       ],
     },
     default: {
-      text: "I understand you're interested in our care services. For specific questions or to speak with a care specialist, please contact us directly:\n\n📞 +44 1322 329735\n📧 info@comfortingcare.co.uk\n\nOur team is available 24/7 to help you!",
+      text: "I understand you're interested in our care services. For specific questions or to speak with a care specialist, please contact us directly:\n\n📞 +44 1322 329735\n📧 info@comfortingcaresolutions.co.uk\n\nOur team is available 24/7 to help you!",
       quickReplies: ["Call us now", "Our services", "Get a quote", "Email us"],
     },
   };
@@ -354,7 +354,7 @@ export default function Chatbot() {
                     size="sm"
                     className="text-xs"
                     onClick={() =>
-                      window.open("mailto:info@comfortingcare.co.uk")
+                      window.open("mailto:info@comfortingcaresolutions.co.uk")
                     }
                   >
                     <Mail className="h-3 w-3 mr-1" />

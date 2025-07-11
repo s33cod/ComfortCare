@@ -206,7 +206,7 @@ export default function Terms() {
                     <p>63-66 Hatton Garden</p>
                     <p>London EC1N 8LE</p>
                     <p>Phone: +44 1322 329735</p>
-                    <p>Email: info@comfortingcare.co.uk</p>
+                    <p>Email: info@comfortingcaresolutions.co.uk</p>
                   </div>
                 </div>
               </CardContent>

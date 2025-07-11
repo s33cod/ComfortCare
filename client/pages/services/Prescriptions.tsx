@@ -119,7 +119,9 @@ export default function Prescriptions() {
                   <Link to="/contact">Setup Service</Link>
                 </Button>
                 <Button asChild variant="outline" size="lg">
-                  <Link to="/pricing">View Pricing</Link>
+                  <Link to="/pricing" className="text-black">
+                    View Pricing
+                  </Link>
                 </Button>
               </div>
             </div>
