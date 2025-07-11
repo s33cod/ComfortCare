@@ -29,7 +29,7 @@ export default function Contact() {
                   <Phone className="h-6 w-6 text-white" />
                 </div>
                 <h3 className="font-semibold mb-2">Phone</h3>
-                <p className="text-muted-foreground">0800 123 4567</p>
+                <p className="text-muted-foreground">+44 1322 329735</p>
               </CardContent>
             </Card>
 
@@ -52,7 +52,9 @@ export default function Contact() {
                 </div>
                 <h3 className="font-semibold mb-2">Address</h3>
                 <p className="text-muted-foreground">
-                  123 Care Street, London, UK
+                  63-66 Hatton Garden
+                  <br />
+                  London EC1N 8LE
                 </p>
               </CardContent>
             </Card>
@@ -81,7 +83,7 @@ export default function Contact() {
             assessment.
           </p>
           <Button size="lg" variant="secondary">
-            Call 0800 123 4567
+            Call +44 1322 329735
           </Button>
         </div>
       </section>
