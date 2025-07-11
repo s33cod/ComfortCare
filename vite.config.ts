@@ -10,7 +10,8 @@ export default defineConfig(({ mode }) => ({
     port: 8080,
   },
   build: {
-    outDir: "dist/spa",
+    outDir: "dist",
+    assetsDir: "assets",
   },
   plugins: [react(), expressPlugin()],
   resolve: {

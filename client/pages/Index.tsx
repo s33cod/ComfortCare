@@ -417,8 +417,8 @@ export default function Index() {
             <Button
               asChild
               size="lg"
-              variant="outline"
-              className="border-white text-white hover:bg-white hover:text-care-600"
+              variant="secondary"
+              className="border-white  hover:bg-white hover:text-care-600"
             >
               <Link to="/pricing" className="text-black">
                 View Pricing
