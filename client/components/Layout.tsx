@@ -1,7 +1,19 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { Menu, X, Heart, Phone, Mail } from "lucide-react";
+import {
+  Menu,
+  X,
+  Heart,
+  Phone,
+  Mail,
+  Home as HomeIcon,
+  Info,
+  Briefcase,
+  DollarSign,
+  Newspaper,
+  MessageCircle,
+} from "lucide-react";
 import { cn } from "@/lib/utils";
 import BackToTop from "@/components/BackToTop";
 import Chatbot from "@/components/Chatbot";
