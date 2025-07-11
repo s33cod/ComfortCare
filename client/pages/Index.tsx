@@ -33,7 +33,7 @@ const heroSlides = [
   },
   {
     image:
-      "https://images.pexels.com/photos/7551473/pexels-photo-7551473.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&fit=crop",
+      "https://images.pexels.com/photos/5858844/pexels-photo-5858844.jpeg?auto=compress&cs=tinysrgb",
     title: "24/7 Support When You Need It Most",
     subtitle: "Emergency care and ongoing assistance",
     description:
@@ -143,7 +143,10 @@ export default function Index() {
           >
             <div
               className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-              style={{ backgroundImage: `url(${slide.image})` }}
+              style={{
+                backgroundImage: `url(${slide.image})`,
+                backgroundPosition: "center 70%",
+              }}
             />
             <div className="absolute inset-0 bg-black/50" />
             <div className="relative h-full flex items-center">
