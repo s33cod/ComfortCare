@@ -3,6 +3,8 @@ import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Menu, X, Heart, Phone, Mail } from "lucide-react";
 import { cn } from "@/lib/utils";
+import BackToTop from "@/components/BackToTop";
+import Chatbot from "@/components/Chatbot";
 
 interface LayoutProps {
   children: React.ReactNode;
@@ -48,7 +50,7 @@ export default function Layout({ children, title, description }: LayoutProps) {
           <div className="flex items-center space-x-6">
             <div className="flex items-center space-x-2">
               <Phone className="h-4 w-4" />
-              <span>Call us: 0800 123 4567</span>
+              <span>Call us: +44 1322 329735</span>
             </div>
             <div className="flex items-center space-x-2">
               <Mail className="h-4 w-4" />
@@ -271,13 +273,17 @@ export default function Layout({ children, title, description }: LayoutProps) {
               <div className="space-y-2 text-sm text-care-200">
                 <div className="flex items-center space-x-2">
                   <Phone className="h-4 w-4" />
-                  <span>0800 123 4567</span>
+                  <span>+44 1322 329735</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <Mail className="h-4 w-4" />
                   <span>info@comfortingcare.co.uk</span>
                 </div>
                 <p className="mt-4">
+                  63-66 Hatton Garden
+                  <br />
+                  London EC1N 8LE
+                  <br />
                   24/7 Support Available
                   <br />
                   Licensed & Insured
@@ -286,11 +292,33 @@ export default function Layout({ children, title, description }: LayoutProps) {
             </div>
           </div>
 
-          <div className="border-t border-care-700 mt-8 pt-8 text-center text-sm text-care-200">
-            <p>&copy; 2024 Comforting Care Solutions. All rights reserved.</p>
+          <div className="border-t border-care-700 mt-8 pt-8">
+            <div className="flex flex-col md:flex-row justify-between items-center text-sm text-care-200 space-y-4 md:space-y-0">
+              <p>&copy; 2025 Comforting Care Solutions. All rights reserved.</p>
+              <div className="flex space-x-6">
+                <Link
+                  to="/terms"
+                  className="hover:text-white transition-colors"
+                >
+                  Terms & Conditions
+                </Link>
+                <Link
+                  to="/privacy"
+                  className="hover:text-white transition-colors"
+                >
+                  Privacy Policy
+                </Link>
+              </div>
+            </div>
           </div>
         </div>
       </footer>
+
+      {/* Back to Top Button */}
+      <BackToTop />
+
+      {/* Chatbot */}
+      <Chatbot />
     </div>
   );
 }
