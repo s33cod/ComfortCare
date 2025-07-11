@@ -83,11 +83,12 @@ export default function Layout({ children, title, description }: LayoutProps) {
                   <Link
                     to={item.href}
                     className={cn(
-                      "text-foreground hover:text-care-600 px-3 py-2 text-sm font-medium transition-colors",
+                      "text-foreground hover:text-care-600 px-3 py-2 text-sm font-medium transition-colors flex items-center space-x-2",
                       location.pathname === item.href && "text-care-600",
                     )}
                   >
-                    {item.name}
+                    {item.icon && <item.icon className="h-4 w-4" />}
+                    <span>{item.name}</span>
                   </Link>
                   {item.children && (
                     <div className="absolute left-0 mt-2 w-64 bg-white shadow-lg rounded-md opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
