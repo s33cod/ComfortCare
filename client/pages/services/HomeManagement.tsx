@@ -9,13 +9,12 @@ import {
   Shield,
   Star,
   Sparkles,
-  Broom,
   Shirt,
 } from "lucide-react";
 
 const services = [
   {
-    icon: Broom,
+    icon: Sparkles,
     title: "Light Housekeeping",
     description:
       "Dusting, vacuuming, mopping, and maintaining clean living spaces",
